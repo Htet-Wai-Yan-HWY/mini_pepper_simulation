@@ -1,0 +1,42 @@
+[0.755s] Invoking command in '/home/zyme/ros_ws/mini_pepper/build/champ_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/mini_pepper/src/champ/champ_teleop -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/mini_pepper/install/champ_teleop
+[1.664s] -- The C compiler identification is GNU 11.4.0
+[1.664s] -- The CXX compiler identification is GNU 11.4.0
+[1.664s] -- Detecting C compiler ABI info
+[1.664s] -- Detecting C compiler ABI info - done
+[1.664s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.664s] -- Detecting C compile features
+[1.665s] -- Detecting C compile features - done
+[1.665s] -- Detecting CXX compiler ABI info
+[1.665s] -- Detecting CXX compiler ABI info - done
+[1.665s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.665s] -- Detecting CXX compile features
+[1.665s] -- Detecting CXX compile features - done
+[1.667s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.860s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.313s] -- Configuring done
+[2.323s] -- Generating done
+[2.325s] -- Build files have been written to: /home/zyme/ros_ws/mini_pepper/build/champ_teleop
+[2.334s] Invoked command in '/home/zyme/ros_ws/mini_pepper/build/champ_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/mini_pepper/src/champ/champ_teleop -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/mini_pepper/install/champ_teleop
+[2.343s] Invoking command in '/home/zyme/ros_ws/mini_pepper/build/champ_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/mini_pepper/build/champ_teleop -- -j12 -l12
+[2.450s] Invoked command in '/home/zyme/ros_ws/mini_pepper/build/champ_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/mini_pepper/build/champ_teleop -- -j12 -l12
+[2.504s] Invoking command in '/home/zyme/ros_ws/mini_pepper/build/champ_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/mini_pepper/build/champ_teleop
+[2.531s] -- Install configuration: ""
+[2.531s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_teleop/share/champ_teleop/launch
+[2.532s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_teleop/share/champ_teleop/launch/teleop.launch.py
+[2.532s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_teleop/lib/champ_teleop/champ_teleop.py
+[2.532s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_teleop/share/ament_index/resource_index/package_run_dependencies/champ_teleop
+[2.532s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_teleop/share/ament_index/resource_index/parent_prefix_path/champ_teleop
+[2.535s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_teleop/share/champ_teleop/environment/ament_prefix_path.sh
+[2.535s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_teleop/share/champ_teleop/environment/ament_prefix_path.dsv
+[2.536s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_teleop/share/champ_teleop/environment/path.sh
+[2.536s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_teleop/share/champ_teleop/environment/path.dsv
+[2.540s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_teleop/share/champ_teleop/local_setup.bash
+[2.540s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_teleop/share/champ_teleop/local_setup.sh
+[2.541s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_teleop/share/champ_teleop/local_setup.zsh
+[2.541s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_teleop/share/champ_teleop/local_setup.dsv
+[2.541s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_teleop/share/champ_teleop/package.dsv
+[2.542s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_teleop/share/ament_index/resource_index/packages/champ_teleop
+[2.542s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_teleop/share/champ_teleop/cmake/champ_teleopConfig.cmake
+[2.542s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_teleop/share/champ_teleop/cmake/champ_teleopConfig-version.cmake
+[2.542s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_teleop/share/champ_teleop/package.xml
+[2.752s] Invoked command in '/home/zyme/ros_ws/mini_pepper/build/champ_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/mini_pepper/build/champ_teleop

@@ -1,0 +1,94 @@
+[0.533s] Invoking command in '/home/zyme/ros_ws/mini_pepper/build/mini_pupper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/mini_pepper/src/mini_pupper_ros/mini_pupper_description -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/mini_pepper/install/mini_pupper_description
+[1.439s] -- The C compiler identification is GNU 11.4.0
+[1.439s] -- The CXX compiler identification is GNU 11.4.0
+[1.440s] -- Detecting C compiler ABI info
+[1.441s] -- Detecting C compiler ABI info - done
+[1.442s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.442s] -- Detecting C compile features
+[1.442s] -- Detecting C compile features - done
+[1.442s] -- Detecting CXX compiler ABI info
+[1.442s] -- Detecting CXX compiler ABI info - done
+[1.443s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.443s] -- Detecting CXX compile features
+[1.443s] -- Detecting CXX compile features - done
+[1.443s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.725s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.024s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.240s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.253s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.256s] -- Added test 'lint_cmake' to check CMake code style
+[2.257s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.263s] -- Added test 'xmllint' to check XML markup files
+[2.270s] -- Configuring done
+[2.277s] -- Generating done
+[2.278s] -- Build files have been written to: /home/zyme/ros_ws/mini_pepper/build/mini_pupper_description
+[2.298s] Invoked command in '/home/zyme/ros_ws/mini_pepper/build/mini_pupper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/mini_pepper/src/mini_pupper_ros/mini_pupper_description -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/mini_pepper/install/mini_pupper_description
+[2.307s] Invoking command in '/home/zyme/ros_ws/mini_pepper/build/mini_pupper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/mini_pepper/build/mini_pupper_description -- -j12 -l12
+[2.714s] Invoked command in '/home/zyme/ros_ws/mini_pepper/build/mini_pupper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/mini_pepper/build/mini_pupper_description -- -j12 -l12
+[3.189s] Invoking command in '/home/zyme/ros_ws/mini_pepper/build/mini_pupper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/mini_pepper/build/mini_pupper_description
+[3.197s] -- Install configuration: ""
+[3.198s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/launch
+[3.198s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/launch/description.launch.py
+[3.198s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/config
+[3.198s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/config/ros_control
+[3.199s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/config/ros_control/mini_pupper_controller.yaml
+[3.199s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/config/champ
+[3.200s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/config/champ/gait.yaml
+[3.200s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/config/champ/links.yaml
+[3.201s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/config/champ/joints.yaml
+[3.201s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/rviz
+[3.201s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/rviz/urdf_viewer.rviz
+[3.202s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/urdf
+[3.202s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/urdf/_materials.urdf.xacro
+[3.202s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/urdf/mini_pupper_description.csv
+[3.203s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/urdf/_d435.urdf.xacro
+[3.203s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/urdf/mini_pupper_description.urdf
+[3.203s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/urdf/_usb_plug.urdf.xacro
+[3.203s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/urdf/mini_pupper_description.urdf.xacro
+[3.204s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes
+[3.204s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/rb1.STL
+[3.204s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/rffoot.STL
+[3.205s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/rpb2.STL
+[3.205s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/lidar.STL
+[3.205s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/rf2.STL
+[3.206s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/d435.dae
+[3.238s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/rb3.STL
+[3.239s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/rb2.STL
+[3.239s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/lf2.STL
+[3.239s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/lb3.STL
+[3.244s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/lb2.STL
+[3.244s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/lffoot.STL
+[3.244s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/rf1.STL
+[3.245s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/rf3.STL
+[3.245s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/lpb1.STL
+[3.245s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/lpf1.STL
+[3.246s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/lpf2.STL
+[3.246s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/lbfoot.STL
+[3.246s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/rpf1.STL
+[3.246s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/plug.stl
+[3.247s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/lpb2.STL
+[3.247s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/rpf2.STL
+[3.247s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/yellow_plate.STL
+[3.247s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/rpb1.STL
+[3.247s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/base_link.STL
+[3.247s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/lf1.STL
+[3.248s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/plug_collision.stl
+[3.248s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/lf3.STL
+[3.248s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/rbfoot.STL
+[3.248s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/meshes/lb1.STL
+[3.248s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/ament_index/resource_index/package_run_dependencies/mini_pupper_description
+[3.249s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/ament_index/resource_index/parent_prefix_path/mini_pupper_description
+[3.249s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/environment/ament_prefix_path.sh
+[3.249s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/environment/ament_prefix_path.dsv
+[3.249s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/environment/path.sh
+[3.249s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/environment/path.dsv
+[3.250s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/local_setup.bash
+[3.250s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/local_setup.sh
+[3.250s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/local_setup.zsh
+[3.251s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/local_setup.dsv
+[3.251s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/package.dsv
+[3.252s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/ament_index/resource_index/packages/mini_pupper_description
+[3.252s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/cmake/mini_pupper_descriptionConfig.cmake
+[3.253s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/cmake/mini_pupper_descriptionConfig-version.cmake
+[3.253s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/mini_pupper_description/share/mini_pupper_description/package.xml
+[3.297s] Invoked command in '/home/zyme/ros_ws/mini_pepper/build/mini_pupper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/mini_pepper/build/mini_pupper_description

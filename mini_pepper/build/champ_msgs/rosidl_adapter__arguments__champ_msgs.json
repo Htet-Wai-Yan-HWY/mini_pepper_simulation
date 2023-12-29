@@ -1,0 +1,14 @@
+{
+  "package_name": "champ_msgs",
+  "non_idl_tuples": [
+    "/home/zyme/ros_ws/mini_pepper/src/champ/champ/champ_msgs:msg/Velocities.msg",
+    "/home/zyme/ros_ws/mini_pepper/src/champ/champ/champ_msgs:msg/PID.msg",
+    "/home/zyme/ros_ws/mini_pepper/src/champ/champ/champ_msgs:msg/Imu.msg",
+    "/home/zyme/ros_ws/mini_pepper/src/champ/champ/champ_msgs:msg/Point.msg",
+    "/home/zyme/ros_ws/mini_pepper/src/champ/champ/champ_msgs:msg/PointArray.msg",
+    "/home/zyme/ros_ws/mini_pepper/src/champ/champ/champ_msgs:msg/Joints.msg",
+    "/home/zyme/ros_ws/mini_pepper/src/champ/champ/champ_msgs:msg/Contacts.msg",
+    "/home/zyme/ros_ws/mini_pepper/src/champ/champ/champ_msgs:msg/ContactsStamped.msg",
+    "/home/zyme/ros_ws/mini_pepper/src/champ/champ/champ_msgs:msg/Pose.msg"
+  ]
+}

@@ -1,0 +1,151 @@
+[0.129s] Invoking command in '/home/zyme/ros_ws/mini_pepper/build/champ_gazebo': CMAKE_PREFIX_PATH=/home/zyme/ros_ws/mini_pepper/install/champ_msgs:/home/zyme/ros_ws/mini_pepper/install/champ:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_navigation:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_gazebo:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_description:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_bringup:/home/zyme/ros_ws/mini_pepper/install/ldlidar_stl_ros2:/home/zyme/ros_ws/mini_pepper/install/champ_teleop:/home/zyme/ros_ws/mini_pepper/install/champ_navigation:/home/zyme/ros_ws/mini_pepper/install/champ_gazebo:/home/zyme/ros_ws/mini_pepper/install/champ_bringup:/home/zyme/ros_ws/mini_pepper/install/champ_base:/home/zyme/ros_ws/mini_pepper/install/champ_description:/home/zyme/ros_ws/mini_pepper/install/champ_config:/home/zyme/ros_ws/robot_localization/install/robot_localization:/home/zyme/ros_ws/navfuse/install/navfuse:/home/zyme/ros_ws/microros_ws/install/micro_ros_setup:/home/zyme/ros_ws/microros_ws/install/micro_ros_agent:/home/zyme/ros_ws/microros_ws/install/micro_ros_msgs:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/mini_pepper/install/champ_msgs/lib:/home/zyme/ros_ws/mini_pepper/install/champ_base/lib:/home/zyme/ros_ws/robot_localization/install/robot_localization/lib:/home/zyme/ros_ws/microros_ws/install/micro_ros_agent/lib:/home/zyme/ros_ws/microros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/zyme/ros_ws/mini_pepper/src/champ/champ/champ_gazebo -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/mini_pepper/install/champ_gazebo
+[0.185s] -- The C compiler identification is GNU 11.4.0
+[0.239s] -- The CXX compiler identification is GNU 11.4.0
+[0.246s] -- Detecting C compiler ABI info
+[0.316s] -- Detecting C compiler ABI info - done
+[0.324s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.324s] -- Detecting C compile features
+[0.324s] -- Detecting C compile features - done
+[0.327s] -- Detecting CXX compiler ABI info
+[0.409s] -- Detecting CXX compiler ABI info - done
+[0.416s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.417s] -- Detecting CXX compile features
+[0.417s] -- Detecting CXX compile features - done
+[0.421s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.608s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.724s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.792s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.800s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.812s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.829s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.855s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.945s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.949s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.067s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.099s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.155s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.169s] -- Looking for pthread.h
+[1.245s] -- Looking for pthread.h - found
+[1.245s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.321s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.322s] -- Found Threads: TRUE  
+[1.515s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[1.572s] -- Found champ: 0.1.0 (/home/zyme/ros_ws/mini_pepper/install/champ/share/champ/cmake)
+[1.574s] -- Found champ_msgs: 0.1.0 (/home/zyme/ros_ws/mini_pepper/install/champ_msgs/share/champ_msgs/cmake)
+[1.697s] -- Found gazebo_ros2_control: 0.4.4 (/opt/ros/humble/share/gazebo_ros2_control/cmake)
+[3.122s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[3.123s] -- Checking for module 'bullet>=2.82'
+[3.140s] --   Found bullet, version 3.05
+[3.303s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[3.381s] -- Found assimp: /usr/include (found version "5.2.0") 
+[3.422s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.494s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[3.523s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.532s] -- Looking for ignition-math6 -- found version 6.15.0
+[3.541s] -- Searching for dependencies of ignition-math6
+[3.543s] -- Looking for OGRE...
+[3.544s] -- OGRE_PREFIX_WATCH changed.
+[3.550s] -- Checking for module 'OGRE'
+[3.568s] --   Found OGRE, version 1.9.0
+[3.620s] -- Found Ogre Ghadamon (1.9.0)
+[3.632s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.642s] -- Looking for OGRE_Paging...
+[3.653s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.653s] -- Looking for OGRE_Terrain...
+[3.663s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.664s] -- Looking for OGRE_Property...
+[3.681s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.681s] -- Looking for OGRE_RTShaderSystem...
+[3.691s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.691s] -- Looking for OGRE_Volume...
+[3.702s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.702s] -- Looking for OGRE_Overlay...
+[3.714s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.950s] -- Looking for ignition-math6 -- found version 6.15.0
+[3.954s] -- Looking for ignition-transport8 -- found version 8.2.1
+[3.955s] -- Searching for dependencies of ignition-transport8
+[3.980s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[3.995s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[4.001s] -- Checking for module 'libzmq >= 4'
+[4.022s] --   Found libzmq , version 4.3.4
+[4.076s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[4.086s] -- Checking for module 'uuid'
+[4.105s] --   Found uuid, version 2.37.2
+[4.153s] -- Found UUID: TRUE  
+[4.157s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.157s] -- Searching for dependencies of ignition-msgs5
+[4.185s] -- Looking for ignition-math6 -- found version 6.15.0
+[4.191s] -- Checking for module 'tinyxml2'
+[4.209s] --   Found tinyxml2, version 9.0.0
+[4.264s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.268s] -- Looking for ignition-common3 -- found version 3.14.0
+[4.269s] -- Searching for dependencies of ignition-common3
+[4.270s] -- Looking for dlfcn.h - found
+[4.271s] -- Looking for libdl - found
+[4.274s] -- Found DL: TRUE  
+[4.291s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[4.292s] -- Searching for <ignition-common3> component [graphics]
+[4.296s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[4.297s] -- Searching for dependencies of ignition-common3-graphics
+[4.297s] -- Looking for ignition-math6 -- found version 6.15.0
+[4.303s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[4.303s] -- Searching for dependencies of ignition-fuel_tools4
+[4.416s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[4.429s] -- Checking for module 'jsoncpp'
+[4.446s] --   Found jsoncpp, version 1.9.5
+[4.496s] -- Found JSONCPP: TRUE  
+[4.503s] -- Checking for module 'libzip'
+[4.522s] --   Found libzip, version 1.7.3
+[4.567s] -- Found ZIP: TRUE  
+[4.568s] -- Looking for ignition-common3 -- found version 3.14.0
+[4.569s] -- Looking for ignition-math6 -- found version 6.15.0
+[4.569s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.579s] -- Gazebo version: 11.10
+[4.579s] -- Checking for module 'tbb'
+[4.601s] --   Found tbb, version 2021.5.0
+[5.834s] -- Configuring done
+[5.912s] -- Generating done
+[5.916s] -- Build files have been written to: /home/zyme/ros_ws/mini_pepper/build/champ_gazebo
+[5.939s] Invoked command in '/home/zyme/ros_ws/mini_pepper/build/champ_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/zyme/ros_ws/mini_pepper/install/champ_msgs:/home/zyme/ros_ws/mini_pepper/install/champ:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_navigation:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_gazebo:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_description:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_bringup:/home/zyme/ros_ws/mini_pepper/install/ldlidar_stl_ros2:/home/zyme/ros_ws/mini_pepper/install/champ_teleop:/home/zyme/ros_ws/mini_pepper/install/champ_navigation:/home/zyme/ros_ws/mini_pepper/install/champ_gazebo:/home/zyme/ros_ws/mini_pepper/install/champ_bringup:/home/zyme/ros_ws/mini_pepper/install/champ_base:/home/zyme/ros_ws/mini_pepper/install/champ_description:/home/zyme/ros_ws/mini_pepper/install/champ_config:/home/zyme/ros_ws/robot_localization/install/robot_localization:/home/zyme/ros_ws/navfuse/install/navfuse:/home/zyme/ros_ws/microros_ws/install/micro_ros_setup:/home/zyme/ros_ws/microros_ws/install/micro_ros_agent:/home/zyme/ros_ws/microros_ws/install/micro_ros_msgs:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/mini_pepper/install/champ_msgs/lib:/home/zyme/ros_ws/mini_pepper/install/champ_base/lib:/home/zyme/ros_ws/robot_localization/install/robot_localization/lib:/home/zyme/ros_ws/microros_ws/install/micro_ros_agent/lib:/home/zyme/ros_ws/microros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/zyme/ros_ws/mini_pepper/src/champ/champ/champ_gazebo -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/mini_pepper/install/champ_gazebo
+[5.941s] Invoking command in '/home/zyme/ros_ws/mini_pepper/build/champ_gazebo': CMAKE_PREFIX_PATH=/home/zyme/ros_ws/mini_pepper/install/champ_msgs:/home/zyme/ros_ws/mini_pepper/install/champ:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_navigation:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_gazebo:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_description:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_bringup:/home/zyme/ros_ws/mini_pepper/install/ldlidar_stl_ros2:/home/zyme/ros_ws/mini_pepper/install/champ_teleop:/home/zyme/ros_ws/mini_pepper/install/champ_navigation:/home/zyme/ros_ws/mini_pepper/install/champ_gazebo:/home/zyme/ros_ws/mini_pepper/install/champ_bringup:/home/zyme/ros_ws/mini_pepper/install/champ_base:/home/zyme/ros_ws/mini_pepper/install/champ_description:/home/zyme/ros_ws/mini_pepper/install/champ_config:/home/zyme/ros_ws/robot_localization/install/robot_localization:/home/zyme/ros_ws/navfuse/install/navfuse:/home/zyme/ros_ws/microros_ws/install/micro_ros_setup:/home/zyme/ros_ws/microros_ws/install/micro_ros_agent:/home/zyme/ros_ws/microros_ws/install/micro_ros_msgs:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/mini_pepper/install/champ_msgs/lib:/home/zyme/ros_ws/mini_pepper/install/champ_base/lib:/home/zyme/ros_ws/robot_localization/install/robot_localization/lib:/home/zyme/ros_ws/microros_ws/install/micro_ros_agent/lib:/home/zyme/ros_ws/microros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/zyme/ros_ws/mini_pepper/build/champ_gazebo -- -j12 -l12
+[6.010s] [ 50%] [32mBuilding CXX object CMakeFiles/contact_sensor.dir/src/contact_sensor.cpp.o[0m
+[25.375s] [100%] [32m[1mLinking CXX executable contact_sensor[0m
+[28.137s] [100%] Built target contact_sensor
+[28.149s] Invoked command in '/home/zyme/ros_ws/mini_pepper/build/champ_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/zyme/ros_ws/mini_pepper/install/champ_msgs:/home/zyme/ros_ws/mini_pepper/install/champ:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_navigation:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_gazebo:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_description:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_bringup:/home/zyme/ros_ws/mini_pepper/install/ldlidar_stl_ros2:/home/zyme/ros_ws/mini_pepper/install/champ_teleop:/home/zyme/ros_ws/mini_pepper/install/champ_navigation:/home/zyme/ros_ws/mini_pepper/install/champ_gazebo:/home/zyme/ros_ws/mini_pepper/install/champ_bringup:/home/zyme/ros_ws/mini_pepper/install/champ_base:/home/zyme/ros_ws/mini_pepper/install/champ_description:/home/zyme/ros_ws/mini_pepper/install/champ_config:/home/zyme/ros_ws/robot_localization/install/robot_localization:/home/zyme/ros_ws/navfuse/install/navfuse:/home/zyme/ros_ws/microros_ws/install/micro_ros_setup:/home/zyme/ros_ws/microros_ws/install/micro_ros_agent:/home/zyme/ros_ws/microros_ws/install/micro_ros_msgs:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/mini_pepper/install/champ_msgs/lib:/home/zyme/ros_ws/mini_pepper/install/champ_base/lib:/home/zyme/ros_ws/robot_localization/install/robot_localization/lib:/home/zyme/ros_ws/microros_ws/install/micro_ros_agent/lib:/home/zyme/ros_ws/microros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/zyme/ros_ws/mini_pepper/build/champ_gazebo -- -j12 -l12
+[28.181s] Invoking command in '/home/zyme/ros_ws/mini_pepper/build/champ_gazebo': CMAKE_PREFIX_PATH=/home/zyme/ros_ws/mini_pepper/install/champ_msgs:/home/zyme/ros_ws/mini_pepper/install/champ:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_navigation:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_gazebo:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_description:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_bringup:/home/zyme/ros_ws/mini_pepper/install/ldlidar_stl_ros2:/home/zyme/ros_ws/mini_pepper/install/champ_teleop:/home/zyme/ros_ws/mini_pepper/install/champ_navigation:/home/zyme/ros_ws/mini_pepper/install/champ_gazebo:/home/zyme/ros_ws/mini_pepper/install/champ_bringup:/home/zyme/ros_ws/mini_pepper/install/champ_base:/home/zyme/ros_ws/mini_pepper/install/champ_description:/home/zyme/ros_ws/mini_pepper/install/champ_config:/home/zyme/ros_ws/robot_localization/install/robot_localization:/home/zyme/ros_ws/navfuse/install/navfuse:/home/zyme/ros_ws/microros_ws/install/micro_ros_setup:/home/zyme/ros_ws/microros_ws/install/micro_ros_agent:/home/zyme/ros_ws/microros_ws/install/micro_ros_msgs:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/mini_pepper/install/champ_msgs/lib:/home/zyme/ros_ws/mini_pepper/install/champ_base/lib:/home/zyme/ros_ws/robot_localization/install/robot_localization/lib:/home/zyme/ros_ws/microros_ws/install/micro_ros_agent/lib:/home/zyme/ros_ws/microros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/zyme/ros_ws/mini_pepper/build/champ_gazebo
+[28.189s] -- Install configuration: ""
+[28.189s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/bin/imu_sensor.py
+[28.189s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/bin/odometry_tf.py
+[28.189s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/bin/odometry.py
+[28.189s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/lib/champ_gazebo/contact_sensor
+[28.192s] -- Set runtime path of "/home/zyme/ros_ws/mini_pepper/install/champ_gazebo/lib/champ_gazebo/contact_sensor" to ""
+[28.192s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/launch
+[28.192s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/launch/spawn_robot.launch
+[28.192s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/launch/gazebo.launch
+[28.192s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/launch/spawn_world.launch
+[28.192s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/launch/gazebo.launch.py
+[28.193s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/config
+[28.193s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/config/ros_control.yaml
+[28.193s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/config/gazebo.yaml
+[28.193s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/worlds
+[28.194s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/worlds/playground.world
+[28.194s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/worlds/outdoor.world
+[28.195s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/worlds/default.world
+[28.195s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/ament_index/resource_index/package_run_dependencies/champ_gazebo
+[28.195s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/ament_index/resource_index/parent_prefix_path/champ_gazebo
+[28.196s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/environment/ament_prefix_path.sh
+[28.196s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/environment/ament_prefix_path.dsv
+[28.196s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/environment/path.sh
+[28.196s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/environment/path.dsv
+[28.196s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/local_setup.bash
+[28.197s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/local_setup.sh
+[28.197s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/local_setup.zsh
+[28.197s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/local_setup.dsv
+[28.197s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/package.dsv
+[28.197s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/ament_index/resource_index/packages/champ_gazebo
+[28.198s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.198s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.198s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/cmake/champ_gazeboConfig.cmake
+[28.198s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/cmake/champ_gazeboConfig-version.cmake
+[28.198s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_gazebo/share/champ_gazebo/package.xml
+[28.201s] Invoked command in '/home/zyme/ros_ws/mini_pepper/build/champ_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/zyme/ros_ws/mini_pepper/install/champ_msgs:/home/zyme/ros_ws/mini_pepper/install/champ:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_navigation:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_gazebo:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_description:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_bringup:/home/zyme/ros_ws/mini_pepper/install/ldlidar_stl_ros2:/home/zyme/ros_ws/mini_pepper/install/champ_teleop:/home/zyme/ros_ws/mini_pepper/install/champ_navigation:/home/zyme/ros_ws/mini_pepper/install/champ_gazebo:/home/zyme/ros_ws/mini_pepper/install/champ_bringup:/home/zyme/ros_ws/mini_pepper/install/champ_base:/home/zyme/ros_ws/mini_pepper/install/champ_description:/home/zyme/ros_ws/mini_pepper/install/champ_config:/home/zyme/ros_ws/robot_localization/install/robot_localization:/home/zyme/ros_ws/navfuse/install/navfuse:/home/zyme/ros_ws/microros_ws/install/micro_ros_setup:/home/zyme/ros_ws/microros_ws/install/micro_ros_agent:/home/zyme/ros_ws/microros_ws/install/micro_ros_msgs:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble LD_LIBRARY_PATH=/home/zyme/ros_ws/mini_pepper/install/champ_msgs/lib:/home/zyme/ros_ws/mini_pepper/install/champ_base/lib:/home/zyme/ros_ws/robot_localization/install/robot_localization/lib:/home/zyme/ros_ws/microros_ws/install/micro_ros_agent/lib:/home/zyme/ros_ws/microros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/zyme/ros_ws/mini_pepper/build/champ_gazebo

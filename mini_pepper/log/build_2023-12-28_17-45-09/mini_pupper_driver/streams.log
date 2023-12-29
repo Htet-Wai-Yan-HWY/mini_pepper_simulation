@@ -1,0 +1,51 @@
+[2.605s] Invoking command in '/home/zyme/ros_ws/mini_pepper/src/mini_pupper_ros/mini_pupper_driver': PYTHONPATH=/home/zyme/ros_ws/mini_pepper/build/mini_pupper_driver/prefix_override:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mini_pupper_driver build --build-base /home/zyme/ros_ws/mini_pepper/build/mini_pupper_driver/build install --record /home/zyme/ros_ws/mini_pepper/build/mini_pupper_driver/install.log --single-version-externally-managed
+[2.977s] running egg_info
+[2.978s] creating ../../../build/mini_pupper_driver/mini_pupper_driver.egg-info
+[2.979s] writing ../../../build/mini_pupper_driver/mini_pupper_driver.egg-info/PKG-INFO
+[2.979s] writing dependency_links to ../../../build/mini_pupper_driver/mini_pupper_driver.egg-info/dependency_links.txt
+[2.980s] writing entry points to ../../../build/mini_pupper_driver/mini_pupper_driver.egg-info/entry_points.txt
+[2.980s] writing requirements to ../../../build/mini_pupper_driver/mini_pupper_driver.egg-info/requires.txt
+[2.981s] writing top-level names to ../../../build/mini_pupper_driver/mini_pupper_driver.egg-info/top_level.txt
+[2.981s] writing manifest file '../../../build/mini_pupper_driver/mini_pupper_driver.egg-info/SOURCES.txt'
+[2.983s] reading manifest file '../../../build/mini_pupper_driver/mini_pupper_driver.egg-info/SOURCES.txt'
+[2.985s] writing manifest file '../../../build/mini_pupper_driver/mini_pupper_driver.egg-info/SOURCES.txt'
+[2.985s] running build
+[2.986s] running build_py
+[2.986s] creating /home/zyme/ros_ws/mini_pepper/build/mini_pupper_driver/build
+[2.986s] creating /home/zyme/ros_ws/mini_pepper/build/mini_pupper_driver/build/lib
+[2.987s] creating /home/zyme/ros_ws/mini_pepper/build/mini_pupper_driver/build/lib/mini_pupper_driver
+[2.987s] copying mini_pupper_driver/servo_interface.py -> /home/zyme/ros_ws/mini_pepper/build/mini_pupper_driver/build/lib/mini_pupper_driver
+[2.987s] copying mini_pupper_driver/display_interface.py -> /home/zyme/ros_ws/mini_pepper/build/mini_pupper_driver/build/lib/mini_pupper_driver
+[2.988s] copying mini_pupper_driver/__init__.py -> /home/zyme/ros_ws/mini_pepper/build/mini_pupper_driver/build/lib/mini_pupper_driver
+[2.988s] copying mini_pupper_driver/imu_interface.py -> /home/zyme/ros_ws/mini_pepper/build/mini_pupper_driver/build/lib/mini_pupper_driver
+[2.988s] running install
+[2.989s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.989s]   warnings.warn(
+[2.990s] running install_lib
+[2.990s] creating /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/lib/python3.10/site-packages/mini_pupper_driver
+[2.991s] copying /home/zyme/ros_ws/mini_pepper/build/mini_pupper_driver/build/lib/mini_pupper_driver/servo_interface.py -> /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/lib/python3.10/site-packages/mini_pupper_driver
+[2.991s] copying /home/zyme/ros_ws/mini_pepper/build/mini_pupper_driver/build/lib/mini_pupper_driver/display_interface.py -> /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/lib/python3.10/site-packages/mini_pupper_driver
+[2.991s] copying /home/zyme/ros_ws/mini_pepper/build/mini_pupper_driver/build/lib/mini_pupper_driver/__init__.py -> /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/lib/python3.10/site-packages/mini_pupper_driver
+[2.991s] copying /home/zyme/ros_ws/mini_pepper/build/mini_pupper_driver/build/lib/mini_pupper_driver/imu_interface.py -> /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/lib/python3.10/site-packages/mini_pupper_driver
+[2.992s] byte-compiling /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/lib/python3.10/site-packages/mini_pupper_driver/servo_interface.py to servo_interface.cpython-310.pyc
+[2.992s] byte-compiling /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/lib/python3.10/site-packages/mini_pupper_driver/display_interface.py to display_interface.cpython-310.pyc
+[2.992s] byte-compiling /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/lib/python3.10/site-packages/mini_pupper_driver/__init__.py to __init__.cpython-310.pyc
+[2.993s] byte-compiling /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/lib/python3.10/site-packages/mini_pupper_driver/imu_interface.py to imu_interface.cpython-310.pyc
+[2.993s] running install_data
+[2.994s] creating /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/share/ament_index
+[2.994s] creating /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/share/ament_index/resource_index
+[2.995s] creating /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/share/ament_index/resource_index/packages
+[2.996s] copying resource/mini_pupper_driver -> /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/share/ament_index/resource_index/packages
+[2.996s] copying package.xml -> /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/share/mini_pupper_driver
+[2.997s] creating /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/share/mini_pupper_driver/launch
+[2.997s] copying launch/display_interface.launch.py -> /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/share/mini_pupper_driver/launch
+[2.997s] copying launch/servo_interface.launch.py -> /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/share/mini_pupper_driver/launch
+[2.998s] copying launch/imu_interface.launch.py -> /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/share/mini_pupper_driver/launch
+[2.998s] running install_egg_info
+[2.998s] Copying ../../../build/mini_pupper_driver/mini_pupper_driver.egg-info to /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/lib/python3.10/site-packages/mini_pupper_driver-0.0.1-py3.10.egg-info
+[2.999s] running install_scripts
+[3.025s] Installing display_interface script to /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/lib/mini_pupper_driver
+[3.026s] Installing imu_interface script to /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/lib/mini_pupper_driver
+[3.027s] Installing servo_interface script to /home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/lib/mini_pupper_driver
+[3.027s] writing list of installed files to '/home/zyme/ros_ws/mini_pepper/build/mini_pupper_driver/install.log'
+[3.075s] Invoked command in '/home/zyme/ros_ws/mini_pepper/src/mini_pupper_ros/mini_pupper_driver' returned '0': PYTHONPATH=/home/zyme/ros_ws/mini_pepper/build/mini_pupper_driver/prefix_override:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mini_pupper_driver build --build-base /home/zyme/ros_ws/mini_pepper/build/mini_pupper_driver/build install --record /home/zyme/ros_ws/mini_pepper/build/mini_pupper_driver/install.log --single-version-externally-managed

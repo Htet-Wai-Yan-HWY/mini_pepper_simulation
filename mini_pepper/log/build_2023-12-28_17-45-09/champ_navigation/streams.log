@@ -1,0 +1,46 @@
+[0.876s] Invoking command in '/home/zyme/ros_ws/mini_pepper/build/champ_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/mini_pepper/src/champ/champ/champ_navigation -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/mini_pepper/install/champ_navigation
+[1.788s] -- The C compiler identification is GNU 11.4.0
+[1.788s] -- The CXX compiler identification is GNU 11.4.0
+[1.788s] -- Detecting C compiler ABI info
+[1.788s] -- Detecting C compiler ABI info - done
+[1.788s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.789s] -- Detecting C compile features
+[1.789s] -- Detecting C compile features - done
+[1.789s] -- Detecting CXX compiler ABI info
+[1.789s] -- Detecting CXX compiler ABI info - done
+[1.789s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.789s] -- Detecting CXX compile features
+[1.790s] -- Detecting CXX compile features - done
+[1.790s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.023s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.460s] -- Configuring done
+[2.469s] -- Generating done
+[2.470s] -- Build files have been written to: /home/zyme/ros_ws/mini_pepper/build/champ_navigation
+[2.485s] Invoked command in '/home/zyme/ros_ws/mini_pepper/build/champ_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake /home/zyme/ros_ws/mini_pepper/src/champ/champ/champ_navigation -DCMAKE_INSTALL_PREFIX=/home/zyme/ros_ws/mini_pepper/install/champ_navigation
+[2.486s] Invoking command in '/home/zyme/ros_ws/mini_pepper/build/champ_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/mini_pepper/build/champ_navigation -- -j12 -l12
+[2.566s] Invoked command in '/home/zyme/ros_ws/mini_pepper/build/champ_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --build /home/zyme/ros_ws/mini_pepper/build/champ_navigation -- -j12 -l12
+[2.613s] Invoking command in '/home/zyme/ros_ws/mini_pepper/build/champ_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/mini_pepper/build/champ_navigation
+[2.645s] -- Install configuration: ""
+[2.646s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/champ_navigation/launch
+[2.648s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/champ_navigation/launch/navigate.launch.py
+[2.648s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/champ_navigation/launch/slam.launch.py
+[2.649s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/champ_navigation/rviz
+[2.650s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/champ_navigation/rviz/navigation_minimal.rviz
+[2.650s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/champ_navigation/rviz/slam.rviz
+[2.650s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/champ_navigation/rviz/navigation.rviz
+[2.650s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/ament_index/resource_index/package_run_dependencies/champ_navigation
+[2.651s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/ament_index/resource_index/parent_prefix_path/champ_navigation
+[2.651s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/champ_navigation/environment/ament_prefix_path.sh
+[2.651s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/champ_navigation/environment/ament_prefix_path.dsv
+[2.651s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/champ_navigation/environment/path.sh
+[2.651s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/champ_navigation/environment/path.dsv
+[2.652s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/champ_navigation/local_setup.bash
+[2.653s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/champ_navigation/local_setup.sh
+[2.653s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/champ_navigation/local_setup.zsh
+[2.654s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/champ_navigation/local_setup.dsv
+[2.654s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/champ_navigation/package.dsv
+[2.654s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/ament_index/resource_index/packages/champ_navigation
+[2.654s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/champ_navigation/cmake/champ_navigationConfig.cmake
+[2.655s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/champ_navigation/cmake/champ_navigationConfig-version.cmake
+[2.655s] -- Installing: /home/zyme/ros_ws/mini_pepper/install/champ_navigation/share/champ_navigation/package.xml
+[2.674s] Invoked command in '/home/zyme/ros_ws/mini_pepper/build/champ_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zyme/ros_ws/mini_pepper/install/mini_pupper_driver:/opt/ros/humble /usr/bin/cmake --install /home/zyme/ros_ws/mini_pepper/build/champ_navigation
