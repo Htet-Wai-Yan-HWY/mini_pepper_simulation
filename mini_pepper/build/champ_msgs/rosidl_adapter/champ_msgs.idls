@@ -1,9 +1,0 @@
-/home/zyme/ros_ws/mini_pepper/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Velocities.idl
-/home/zyme/ros_ws/mini_pepper/build/champ_msgs/rosidl_adapter/champ_msgs:msg/PID.idl
-/home/zyme/ros_ws/mini_pepper/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Imu.idl
-/home/zyme/ros_ws/mini_pepper/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Point.idl
-/home/zyme/ros_ws/mini_pepper/build/champ_msgs/rosidl_adapter/champ_msgs:msg/PointArray.idl
-/home/zyme/ros_ws/mini_pepper/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Joints.idl
-/home/zyme/ros_ws/mini_pepper/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Contacts.idl
-/home/zyme/ros_ws/mini_pepper/build/champ_msgs/rosidl_adapter/champ_msgs:msg/ContactsStamped.idl
-/home/zyme/ros_ws/mini_pepper/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Pose.idl

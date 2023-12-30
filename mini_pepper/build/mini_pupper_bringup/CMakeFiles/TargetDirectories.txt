@@ -1,9 +1,0 @@
-/home/zyme/ros_ws/mini_pepper/build/mini_pupper_bringup/CMakeFiles/uninstall.dir
-/home/zyme/ros_ws/mini_pepper/build/mini_pupper_bringup/CMakeFiles/mini_pupper_bringup_uninstall.dir
-/home/zyme/ros_ws/mini_pepper/build/mini_pupper_bringup/CMakeFiles/test.dir
-/home/zyme/ros_ws/mini_pepper/build/mini_pupper_bringup/CMakeFiles/edit_cache.dir
-/home/zyme/ros_ws/mini_pepper/build/mini_pupper_bringup/CMakeFiles/rebuild_cache.dir
-/home/zyme/ros_ws/mini_pepper/build/mini_pupper_bringup/CMakeFiles/list_install_components.dir
-/home/zyme/ros_ws/mini_pepper/build/mini_pupper_bringup/CMakeFiles/install.dir
-/home/zyme/ros_ws/mini_pepper/build/mini_pupper_bringup/CMakeFiles/install/local.dir
-/home/zyme/ros_ws/mini_pepper/build/mini_pupper_bringup/CMakeFiles/install/strip.dir
